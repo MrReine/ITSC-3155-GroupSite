@@ -88,3 +88,15 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+.alexr-headshot {
+    width:75%;
+    height: auto;
+}
+
+#bio1-img {
+    display: none;
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
