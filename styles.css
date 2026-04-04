@@ -89,6 +89,8 @@ button:hover {
     background: #0056b3;
 }
 
+/* --- ALEX REINE INDIVIDUAL STYLING --- */
+/* This section handles the unique visual identity for Alex's bio card */
 .alexr-headshot {
     width:75%;
     height: auto;
@@ -99,4 +101,19 @@ button:hover {
     margin: auto;
     width: 50%;
     height: auto;
+}
+
+.alex-card {
+    border-top: 5px solid #9c27b0;
+    background: linear-gradient(180deg, #ffffff 0%, #f3e5f5 100%);
+    transition: all 0.3s ease;
+}
+.alex-card h2 {
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.alex-card:hover {
+    box-shadow: 0 10px 20px rgba(156, 39, 176, 0.4); /* Colored shadow */
+    transform: translateY(-10px); /* Lift and tilt */
 }
