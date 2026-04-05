@@ -41,11 +41,13 @@ header nav button:hover {
 
 /* Flex container for team bios and vision sections */
 .container {
-    width: 80%;
+    width: 95%;
     margin: 20px auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-items: center;
+    align-items: start;
 }
 
 /* Card styling for individual team bios */
@@ -53,11 +55,12 @@ header nav button:hover {
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px;
     padding: 20px;
-    flex: 1 1 calc(30% - 40px);
     text-align: center;
     transition: transform 0.2s;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 350px;
 }
 
 .card:hover {
