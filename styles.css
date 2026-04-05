@@ -120,3 +120,25 @@ button:hover {
     box-shadow: 0 10px 20px rgba(156, 39, 176, 0.4); /* Colored shadow */
     transform: translateY(-10px); /* Lift and tilt */
 }
+
+/* --- ANDREW LAUGHLIN INDIVIDUAL STYLING --- */
+/* This section handles the unique visual identity for Alex's bio card */
+.andrewl-headshot {
+    width:75%;
+    height: auto;
+}
+
+.andrewl-card {
+    border-top: 5px solid #9c27b0;
+    background: linear-gradient(180deg, #ffffff 0%, #1e3a8a 50%);
+    transition: all 0.3s ease;
+}
+.andrewl-card h2 {
+    font-family: 'Ariel', serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.andrewl-card:hover {
+    box-shadow: 0 10px 20px rgba(159, 39, 176, 0.4); /* Colored shadow */
+    transform: translateY(-10px); /* Lift and tilt */
+}
