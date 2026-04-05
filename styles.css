@@ -168,3 +168,32 @@ button:hover {
     box-shadow: 0 10px 20px rgba(159, 39, 176, 0.4); /* Colored shadow */
     transform: translateY(-10px); /* Lift and tilt */
 }
+
+/* --- XAVIER WASHINGTON INDIVIDUAL STYLING --- */
+/* This part holds the code for the visuals of Xavier's bio card */
+
+.xavierw-headshot {
+    width:75%;
+    height: auto;
+}
+
+.xavierw-card {
+    border-top: 5px solid #0a51de;
+    background: linear-gradient(180deg, #bdcee9 3%, #a5a8e1 50%);
+    transition: all 0.3s ease;
+}
+.xavierw-card h2 {
+    font-family: 'Merriweather', serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.xavierw-card:hover {
+    box-shadow: 0 10px 20px rgba(170, 94, 76, 0.625); /* Colored shadow */
+    transform: translateY(-10px); /* Lift and tilt */
+}
+#bio4-img {
+    display: none;
+    margin: auto;
+    width: 70%;
+    height: auto;
+}
