@@ -78,6 +78,12 @@ h2 {
     color: #555;
 }
 
+.bio3 {
+    display: none;
+    margin-top: 10px;
+    color: #555;
+}
+
 /* Button styling */
 button {
     background: #007BFF;
@@ -106,6 +112,17 @@ button:hover {
     height: auto;
 }
 
+#bio3-img {
+    display: none;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.card-kabir {
+    border-top: 5px solid #9c27b0;
+    background: linear-gradient(180deg, #ffffff 0%, #f3e5f5 100%);
+    transition: all 0.3s ease;
+}
 .alex-card {
     border-top: 5px solid #9c27b0;
     background: linear-gradient(180deg, #ffffff 0%, #f3e5f5 100%);
@@ -120,10 +137,19 @@ button:hover {
     box-shadow: 0 10px 20px rgba(156, 39, 176, 0.4); /* Colored shadow */
     transform: translateY(-10px); /* Lift and tilt */
 }
+.card-kabir:hover {
+    box-shadow: 0 10px 20px rgba(156, 39, 176, 0.4); /* Colored shadow */
+    transform: translateY(-10px); /* Lift and tilt */
+}
 
 /* --- ANDREW LAUGHLIN INDIVIDUAL STYLING --- */
 /* This section handles the unique visual identity for Alex's bio card */
 .andrewl-headshot {
+    width:75%;
+    height: auto;
+}
+
+.kabir-picture {
     width:75%;
     height: auto;
 }
